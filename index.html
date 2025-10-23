@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreshHarvest | Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7D1z7Dq+9U/N5EXtNph6C5Whrn1k3+yjF6R"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="home-page">
+      <div class="header">
+        <img
+          class="freshharvestlogo-icon"
+          src="Images/freshharvestlogo.png"
+          alt="FreshHarvest Logo"
+        />
+        <div class="navigation">
+          <ul>
+            <li><a href="index.html" class="home active">Home</a></li>
+            <li><a href="product.html" class="product">Products</a></li>
+            <li><a href="about.html" class="about">About</a></li>
+            <li><a href="contact.html" class="contact">Contact</a></li>
+            <li><a href="faq.html" class="faq">FAQ</a></li>
+          </ul>
+
+          <form class="search-box" id="searchForm">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search products..."
+              required
+            />
+            <button type="submit">
+              <img src="Images/search-icon.png" alt="Search" />
+            </button>
+          </form>
+
+          <a href="cart.html" class="addcart-btn">
+            <img class="addcart-icon" src="Images/addcart.png" alt="Cart" />
+          </a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="leftside">
+          <img
+            class="highlightpic1-icon"
+            src="Images/highlightpic1.png"
+            alt="Featured Product"
+          />
+        </div>
+        <div class="rightside">
+          <b class="welcome-to-freshharvest-your-container">
+            <p class="welcome-to-freshharvest">
+              <span class="welcome-to">Welcome to</span>
+              <span> FreshHarvest</span>
+              <span>Your </span>
+              <span class="welcome-to">Online Market</span>
+              <span> for Fresh Goodness!</span>
+            </p>
+          </b>
+          <div class="at-freshharvest-we">
+            At FreshHarvest, we bring the freshness of the farm straight to your
+            doorstep. Our e-commerce platform makes it easy and convenient to
+            shop for high-quality vegetables and fruits online, just like your
+            favorite online stores, but fresher and greener!
+          </div>
+          <div class="at-freshharvest-we">
+            We’re dedicated to supporting local farmers and delivering
+            farm-fresh, hand-picked produce that’s packed with nutrition and
+            flavor. Whether you’re preparing your daily meals or stocking up for
+            the week, FreshHarvest ensures that every product you order is
+            fresh, healthy, and delivered with care.
+          </div>
+          <button class="ordernow">
+            <span class="order-text">Order Now</span>
+            <img class="order-icon" src="Images/arrowright.png" />
+          </button>
+        </div>
+      </div>
+      <div class="buttomfoote">
+        <div class="copyrights-freshharvestcom-a">
+          Copyrights Freshharvest.com. All Rights Reserved
+        </div>
+      </div>
+    </div>
+    <script>
+      document.querySelector(".ordernow").addEventListener("click", () => {
+        window.location.href = "product.html";
+      });
+    </script>
+    <script src="js/search.js"></script>
+  </body>
+</html>

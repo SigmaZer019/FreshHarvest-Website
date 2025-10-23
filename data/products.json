@@ -1,0 +1,14 @@
+[
+  { "name": "Orange", "price": 25, "image": "Images/orange.png", "page": "product.html" },
+  { "name": "Apple", "price": 30, "image": "Images/apple.png", "page": "product.html" },
+  { "name": "Lemon", "price": 45, "image": "Images/lemon.png", "page": "product.html" },
+  { "name": "Tomatoe", "price": 50, "image": "Images/tomatoe.png", "page": "product.html" },
+  { "name": "Onion", "price": 60, "image": "Images/onion.png", "page": "product.html" },
+  { "name": "Banana", "price": 20, "image": "Images/banana.png", "page": "product.html" },
+  { "name": "Strawberry", "price": 90, "image": "Images/strawberry.png", "page": "product.html" },
+  { "name": "Watermelon", "price": 70, "image": "Images/watermelon.png", "page": "product.html" },
+  { "name": "Eggplant", "price": 80, "image": "Images/eggplant.png", "page": "product.html" },
+  { "name": "Carrot", "price": 35, "image": "Images/carrot.jpg", "page": "product.html" },
+  { "name": "Chilli", "price": 28, "image": "Images/chilli.jpg", "page": "product.html" },
+  { "name": "Broccoli", "price": 65, "image": "Images/broccoli.jpg", "page": "product.html" }
+]
